@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "1092704429780",
+    "firebase_url": "https://challengemockup.firebaseio.com",
+    "project_id": "challengemockup",
+    "storage_bucket": "challengemockup.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1092704429780:android:aea3524e88809b9d",
+        "android_client_info": {
+          "package_name": "com.rodolforpr.challangemockup"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1092704429780-kfvc2vgpt2v5pgd9dfsn7mmffbv2ojfe.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.rodolforpr.challangemockup",
+            "certificate_hash": "beb08bff8096218fe3193530209a8f3c71c9db0d"
+          }
+        },
+        {
+          "client_id": "1092704429780-j9j1cp72s39tvurubkl92iucu2l1l6v5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDWNPgeN45qOYjExvxHi-YW9DmWlZcSyFA"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1092704429780-j9j1cp72s39tvurubkl92iucu2l1l6v5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

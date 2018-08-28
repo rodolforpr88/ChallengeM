@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+
+    <fragment xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:map="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/map"
+        android:name="com.google.android.gms.maps.SupportMapFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        tools:context=".MapsGoogleActivity" />
+
+    <LinearLayout
+        android:layout_width="300dp"
+        android:layout_height="35dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginStart="15dp">
+
+        <EditText
+            android:layout_width="0dp"
+            android:layout_weight="8"
+            android:layout_height="match_parent"
+            android:background="#FFF"
+            android:id="@+id/edit_searchCity"
+            android:hint="type the City"
+            android:maxLines="1"
+            android:inputType="text"/>
+
+        <ImageView
+            android:id="@+id/img_searchCity"
+            android:contentDescription="SearchIcon"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:src="@drawable/ic_magnify"
+            android:background="#FFF"
+            android:textAlignment="center"/>
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="300dp"
+        android:layout_height="35dp"
+        android:layout_marginTop="55dp"
+        android:layout_marginStart="15dp"
+        >
+
+        <EditText
+            android:layout_width="0dp"
+            android:layout_weight="8"
+            android:layout_height="match_parent"
+            android:background="#FFF"
+            android:id="@+id/edit_searchPlace"
+            android:hint="type the Place (restaurant...)"
+            android:maxLines="1"
+            android:inputType="text"/>
+        <ImageView
+            android:id="@+id/img_searchPlace"
+            android:contentDescription="SearchIcon"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:src="@drawable/ic_magnify"
+            android:background="#FFF"
+            android:textAlignment="center"/>
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btn_submit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="14dp"
+        android:layout_marginTop="90dp"
+        android:drawableEnd="@drawable/icon_submit"
+        android:drawablePadding="5dp"
+        android:text="Submit"
+        tools:ignore="RtlCompat" />
+</RelativeLayout>

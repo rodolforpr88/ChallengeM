@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">ChallengeMockup</string>
+    <string name="txtView_calendar">Click on the \"Calendar Button\" below to see the Calendar and your respective weaher</string>
+    <string name="title_activity_maps_google">Map</string>
+    <string name="txtView_googleMaps">Click in the Buttom below to see the and navigate in the Google Maps</string>
+    <string name="txtView_camera">Click in the Button below to acces and take some pictures</string>
+    <string name="btnTxt_logout">Logout</string>
+    <string name="btntxt_takePhotos">CAMERA</string>
+</resources>
